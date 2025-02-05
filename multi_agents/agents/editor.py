@@ -109,6 +109,8 @@ class EditorAgent:
                    based on the research summary report above.
                    You must generate a maximum of {max_sections} section headers.
                    You must focus ONLY on related research topics for subheaders and do NOT include introduction, conclusion and references.
+                   You are specifically researching ecommerce brands, so your headers should be related to brand personas, angles, voice, tone, 
+                   style, competitive analysis and so on. 
                    You must return nothing but a JSON with the fields 'title' (str) and 
                    'sections' (maximum {max_sections} section headers) with the following structure:
                    '{{title: string research title, date: today's date, 

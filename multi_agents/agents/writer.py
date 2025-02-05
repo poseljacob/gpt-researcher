@@ -12,7 +12,6 @@ sample_json = """
 }
 """
 
-
 class WriterAgent:
     def __init__(self, websocket=None, stream_output=None, headers=None):
         self.websocket = websocket
